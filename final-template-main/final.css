@@ -1,32 +1,35 @@
 /*This is the CSS page for our final template.*/
 
 .footer p { /* This is how you add styles for only the p text within the footer. */
-	background-color: #cccccc;
+	background-color: #795B4F;
 	text-align: center;
 	font-size: 20px;
 	margin-bottom: 0;
 }
 .header {
 	height: auto;
-	font-weight: bold;
-	font-size: 50px;
+	font-weight: italics;
+	font-size: 30px;
 	text-align: center;
-	font-family: 'Bebas Neue', sans-serif;
-	background-color: #504136;
-	color:#CFBEB1;
+	font-family: 'Roboto Mono', monospace;
+	background-color: white;
+	color:#2E1D16;
 }
 h4 {
-	font-style: italic;
-	font-size: 40px;
-	font-family: 'Dosis', sans-serif;
+	font-style: Normal;
+	font-size: 18px;
+	font-family: 'Roboto Mono', monospace;
+	text-align: left;
+	color: dimgray;
 }
 h3 {
 	font-size: 30px;
 	font-family: 'Oswald', serif;
+	color: #7f4f24;
 }
 p {
-	font-size: 20px;
-	font-family: 'Times New Roman', serif;
+	font-size: 15px;
+	font-family: 'Roboto Mono', monospace;
 }
 
 img {
@@ -73,5 +76,11 @@ img {
  iframe {
  	min-width: 90%;
  	margin-right: 10px;
+ }
+ .caption{
+ 	font-size:10;
+ 	font-weight: 200;
+ 	color: dimgray;
+ 	text-align:right;
  }
 }
